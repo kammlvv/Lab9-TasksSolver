@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.png";
-import './../App.css';
+import './Header.css';
 function Header() {
     return (
       <header className="header">
