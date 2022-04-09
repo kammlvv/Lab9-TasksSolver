@@ -1,7 +1,5 @@
-
-
-
 .aside{
+  width: 100%;
   background-color: #45A29E;
   grid-area: a;
 }

@@ -1,9 +1,9 @@
 import React from "react";
-import './Aside.css';
+import styleAside from './Aside.module.css';
 import Nav from "./Nav";
 function Aside() {
     return (
-      <aside className="aside">
+      <aside className={styleAside.aside}>
 <Nav/>
       </aside>
     );

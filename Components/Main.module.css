@@ -1,0 +1,34 @@
+.main{
+  width: 100%;
+  background-color: #1F2833;
+  grid-area: m;
+}
+.search{
+  background-color: lightcyan;
+  white-space: nowrap;
+  border-radius: 9px;
+  width: 360px;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+.searchButton{
+  background-color: lightcyan;
+  white-space: nowrap;
+  width: 180px;
+  padding: 10px;
+  border-radius: 9px;
+    cursor: pointer;
+    color: #ECBC76;
+    font-size: 17px;
+}
+.slogan1{
+  color: lightcyan;
+}
+.slogan2{
+  color: lightcyan;
+  font-size:18px;
+}
+body{
+
+}

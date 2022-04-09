@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "./logo.png";
-import './Header.css';
+import logo from "./img/logo.png";
+import styleHeader from './Header.module.css';
 function Header() {
     return (
-      <header className="header">
-<img className="logo"
-src={logo} />
-<div className="Login"><a href="#" >Вход</a>  или  <a href="#" >регистрация</a></div>
-<div className="headTask">
-<div className="hTasks createTask">Создать задание</div>
-<div className="hTasks findTask" >Найти задание</div>
+      <header className={styleHeader.header}>
+<div className={styleHeader.logotype}><img className={styleHeader.logo}
+src={logo} /></div>
+<div className={styleHeader.login}><a href="#" >Вход</a>  или  <a href="#" >регистрация</a></div>
+<div className={styleHeader.headTask}>
+<div className={`${styleHeader.hTasks} ${styleHeader.createTask}`}>Создать задание</div>
+<div className={`${styleHeader.hTasks} ${styleHeader.findTask}`} >Найти задание</div>
 </div>
 
       </header>
