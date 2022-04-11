@@ -12,10 +12,10 @@ function Footer() {
         <a href="https://github.com/"><p className={styleFooter.rules}>Правила сервиса</p></a>
       </div>
       <div className={styleFooter.socialNetworks}>
-        <a className={styleFooter.links} href="#"><img className={`${styleFooter.logo} ${styleFooter.insta}`} src={insta} /> </a>
-        <a className={styleFooter.links} href="#"><img className={`${styleFooter.logo} ${styleFooter.facebook}`} src={facebook} /></a>
-        <a className={styleFooter.links} href="#"><img className={`${styleFooter.logo} ${styleFooter.twitter}`} src={twitter} /></a>
-        <a className={styleFooter.links} href="#"><img className={`${styleFooter.logo} ${styleFooter.vk}`} src={vk} /></a>
+        <a className={styleFooter.links} href="https://www.instagram.com/"><img className={`${styleFooter.logo} ${styleFooter.insta}`} src={insta} /> </a>
+        <a className={styleFooter.links} href="https://www.facebook.com/"><img className={`${styleFooter.logo} ${styleFooter.facebook}`} src={facebook} /></a>
+        <a className={styleFooter.links} href="https://twitter.com/"><img className={`${styleFooter.logo} ${styleFooter.twitter}`} src={twitter} /></a>
+        <a className={styleFooter.links} href="https://vk.com/"><img className={`${styleFooter.logo} ${styleFooter.vk}`} src={vk} /></a>
 
       </div>
     </footer>
