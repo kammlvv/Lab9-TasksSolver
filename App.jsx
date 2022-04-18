@@ -1,3 +1,4 @@
+/* eslint-disable require-jsdoc */
 /* eslint-disable max-len */
 import styleApp from './App.module.css';
 import React from 'react';
@@ -12,7 +13,6 @@ import Profile from './Components/Main/Profile/Profile';
 import Aside from './Components/Aside/Aside';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
-// eslint-disable-next-line require-jsdoc
 function App() {
   return (
     <BrowserRouter>
@@ -26,7 +26,13 @@ function App() {
             <Route path="/tasks" element={<Tasks/>}/>
             <Route path="/yourtasks" element={<YourTasks/>}/>
             <Route path="/yourtasks/1"
-              element={<FullTask name="Find A" category="Math" description="Find X in Triangle" additional="None" deadline="23:20" cost="1000" id="4" />}/>
+              element={<FullTask name="Find X" category="Math" description="Find X in Triangle" additional="None" deadline="17:40" cost="5000" id="1" />}/>
+            <Route path="/yourtasks/2"
+              element={<FullTask name="Find Y" category="Math" description="Find Y in Triangle" additional="None" deadline="12:50" cost="2000" id="2" />}/>
+            <Route path="/yourtasks/3"
+              element={<FullTask name="Find Z" category="Math" description="Find Z in Triangle" additional="None" deadline="23:20" cost="3500" id="3" />}/>
+            <Route path="/yourtasks/4"
+              element={<FullTask name="Find A" category="Math" description="Find A in Triangle" additional="None" deadline="20:00" cost="1000" id="4" />}/>
             <Route path="/wallet" element={<Wallet/>}/>
           </Routes>
 

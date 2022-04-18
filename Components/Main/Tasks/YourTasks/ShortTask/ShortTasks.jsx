@@ -11,6 +11,7 @@ function ShortTask(props) {
     <main className={styleTasks.shortTask}>
       <NavLink to= {"/yourTasks/" + props.id}>
         <div className={styleTasks.nameOfTask}>
+          <h3>Задание № {props.id} </h3>
           <div className={styleTasks.propsInfoName}>{props.name}</div>
         </div>
         <div className={styleTasks.cost}>
