@@ -1,8 +1,7 @@
 .main{
   width: 100%;
   background-color: #222222;
-  
-  grid-area: m;
+
 }
 .searchBox{
   width: 600px;
@@ -56,30 +55,7 @@
 body{
 
 }
-.subjectsBox {
-  border-radius: 9px;
-  display: block;
-  margin: 10px 0px 0px 60px;
-  width: 386px;
-  height: 369px;
-  padding-top: 10px;
-  background-color: lightcyan;
-}
-.subjects a{
-  display: block;
-  text-align: center;
-  text-decoration: none;
-}
-.subjects {
-  margin: 5px 0px 5px 0px;
-  padding:10px;
-  border-radius: 2px;
-  background-color: lightcyan;
-  display: block;
-}
-.subjects:hover {
-  background-color: #CFD8DC;
-}
+
 a {
   color: black; 
   text-decoration: none;
@@ -87,3 +63,4 @@ a {
  a:hover {
   color: green;
 }
+
